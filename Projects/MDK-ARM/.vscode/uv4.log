@@ -1,0 +1,13 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'lwIP'
+compiling bsp_hc165.c...
+..\..\Drivers\BSP\74HC165\bsp_hc165.h(42): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Drivers\BSP\74HC165\bsp_hc165.c(68): error:  #20: identifier "data" is undefined
+      s_hc165_latest_val = data;
+..\..\Drivers\BSP\74HC165\bsp_hc165.c(99): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\Drivers\BSP\74HC165\bsp_hc165.c: 2 warnings, 1 error
+"..\..\Output\atk_f407.axf" - 1 Error(s), 2 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:05
